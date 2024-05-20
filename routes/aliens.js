@@ -45,14 +45,14 @@ router.put('/:id', async (req,res)=>{
     }
 })
 
-router.delete('/:id', async (req,res)=>{
-    try{
-        const alien = await Alien.findById(req.params.id);
-        const a1 = await alien.deleteOne()
-        res.json(a1);
-    }catch(err){
-        console.log(`err ${err}`);
-    }
-})
+// router.delete('/:id', async (req,res)=>{
+//     try{
+//         const alien = await Alien.findById(req.params.id);
+//         const a1 = await alien.deleteOne()
+//         res.json(a1);
+//     }catch(err){
+//         console.log(`err ${err}`);
+//     }
+// })
 
 module.exports = router;
