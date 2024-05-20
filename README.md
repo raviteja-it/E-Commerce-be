@@ -1,2 +1,2 @@
-# crud-api-project
-CRUD operations with MongoBD connectivity
+# crud-API-project
+CRUD operations with MongoDB connectivity
